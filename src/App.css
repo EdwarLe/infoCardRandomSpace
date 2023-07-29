@@ -1,0 +1,24 @@
+.imgBg1 {
+    background-image: url(./assets/images/imgBg1.jpg);
+}
+.imgBg2 {
+    background-image: url(./assets/images/imgBg2.jpg);
+}
+.imgBg3 {
+    background-image: url(./assets/images/imgBg3.jpg);
+}
+.imgBg4 {
+    background-image: url(./assets/images/imgBg4.jpg);
+}
+
+.imgBgMain {
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 2rem;
+}
+
+/* .planet1 {
+    background-image: url(./assets/images/planet2.png);
+    min-height: 100vh;
+} */
