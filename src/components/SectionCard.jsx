@@ -1,15 +1,20 @@
 import ButtonRandom from "./ButtonRandom";
 import "./styles/SectionCard.css";
+import { getRandomElement } from "../utils/random.js";
 
-const SectionCard = ({ handleReloadButton, phrase }) => {
+
+const SectionCard = ({ handleReloadButton, phrase, planet }) => {
   return (
     <section className="containerInfo">
+      <div className={`planet ${planet}`}>
+        </div>
       <h2>INFOGALAX</h2>
-      <div className="info">
+      <section className="info">
         <p>{phrase && phrase.phrase}</p>
         <ButtonRandom handleReloadButton={handleReloadButton} />
-      </div>
+      </section>
       <footer>
+        
         <h4>Fuente: {phrase && phrase.author}</h4>
       </footer>
     </section>

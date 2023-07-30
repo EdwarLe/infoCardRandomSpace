@@ -16,9 +16,5 @@
     background-position: center;
     background-size: cover;
     padding: 2rem;
+    overflow: hidden;
 }
-
-/* .planet1 {
-    background-image: url(./assets/images/planet2.png);
-    min-height: 100vh;
-} */
