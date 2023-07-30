@@ -1,91 +1,115 @@
 .containerInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    min-height: calc(100vh - 4rem);
-    place-items: center;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: calc(100vh - 4rem);
+  place-items: center;
+  position: relative;
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
 }
 
 .containerInfo h2 {
-    color: white;
-    font-size: 2rem;
+  color: white;
+  font-size: 2rem;
 }
 
 .info p {
-    background: linear-gradient(rgba(255, 255, 255, 0.945), rgba(255, 255, 255, 0.137));
-    border-radius: 1rem;
-    padding: 1rem;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    user-select: none;
-    font-weight: 500;
-    letter-spacing: 1px;
-    line-height: 1.2rem;
-    font-size: 1rem;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.945),
+    rgba(255, 255, 255, 0.137)
+  );
+  border-radius: 1rem;
+  padding: 1rem;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.2rem;
+  font-size: 1rem;
 }
 
 .planet {
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 50%;
-    min-height: 100vh;
-    width: 150%;
+  background-size: cover;
+  background-position: top;
+  position: absolute;
+  top: 45%;
+  min-height: 100vh;
+  width: 150%;
 }
 .planet1 {
-    background-image: url("../../assets/images/planet1.png");
+  background-image: url("../../assets/images/planet1.png");
 }
 .planet2 {
-    background-image: url("../../assets/images/planet2.png");
+  background-image: url("../../assets/images/planet2.png");
 }
 .planet3 {
-    background-image: url("../../assets/images/planet3.png");
-    opacity: 0.5;
+  background-image: url("../../assets/images/planet3.png");
 }
 .planet4 {
-    background-image: url("../../assets/images/planet4.png");
+  background-image: url("../../assets/images/planet4.png");
 }
 
 footer {
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.445);
-    border-radius: 1rem;
-    padding: 0.5rem;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    user-select: none;
-    z-index: 100;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  z-index: 100;
 }
-
 
 @media (min-width: 300px) {
-    .info p {
-        height: 250px;
-    }
+  .info p {
+    height: 250px;
+  }
 }
 @media (min-width: 400px) {
-    .info p {
-        height: 200px;
-        width: 80%;
-    }
+  .info p {
+    height: 200px;
+    width: 80%;
+  }
+}
+
+@media (min-width: 600px) {
+  .planet {
+    width: 120%;
+  }
 }
 
 @media (min-width: 700px) {
-    .info p {
-        height: 150px;
-        width: 60%;
-    }
+  .info p {
+    height: 150px;
+    width: 60%;
+  }
+
+  .planet {
+    width: 100%;
+  }
 }
+
+@media (min-width: 800px) {
+  .planet1, .planet2, .planet4 {
+    top: 30%;
+  }
+
+}
+
+@media (min-width: 1000px) {
+    .planet1 {
+      top: 10%;
+    }
+  }
