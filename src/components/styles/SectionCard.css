@@ -44,9 +44,7 @@
   background-position: top;
   position: absolute;
   height: 100%;
-  width: 350px;
-  top: 0;
-  left: 0;
+  width: 150%;
 }
 .planet1 {
   background-image: url("../../assets/images/planet1.webp");
