@@ -1,14 +1,14 @@
 .imgBg1 {
-    background-image: url(./assets/images/imgBg1.jpg);
+    background-image: url(./assets/images/imgBg1.webp);
 }
 .imgBg2 {
-    background-image: url(./assets/images/imgBg2.jpg);
+    background-image: url(./assets/images/imgBg2.webp);
 }
 .imgBg3 {
-    background-image: url(./assets/images/imgBg3.jpg);
+    background-image: url(./assets/images/imgBg3.webp);
 }
 .imgBg4 {
-    background-image: url(./assets/images/imgBg4.jpg);
+    background-image: url(./assets/images/imgBg4.webp);
 }
 
 .imgBgMain {
@@ -18,3 +18,5 @@
     padding: 2rem;
     overflow: hidden;
 }
+
+
