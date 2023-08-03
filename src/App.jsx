@@ -1,10 +1,8 @@
-import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import phrases from "./db/spaceCuriosities.json"
+import { useState } from "react";
 import "./App.css";
-import { getRandomElement } from "./utils/random";
 import SectionCard from "./components/SectionCard";
+import phrases from "./db/spaceCuriosities.json";
+import { getRandomElement } from "./utils/random";
 
 const imgArray = ["imgBg1", "imgBg2", "imgBg3", "imgBg4"]
 const planetsArray = ["planet1", "planet2", "planet3", "planet4"]

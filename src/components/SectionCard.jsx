@@ -1,6 +1,5 @@
 import ButtonRandom from "./ButtonRandom";
 import "./styles/SectionCard.css";
-import { getRandomElement } from "../utils/random.js";
 
 
 const SectionCard = ({ handleReloadButton, phrase, planet }) => {
@@ -14,7 +13,6 @@ const SectionCard = ({ handleReloadButton, phrase, planet }) => {
         <ButtonRandom handleReloadButton={handleReloadButton} />
       </section>
       <footer>
-        
         <h4>Fuente: {phrase && phrase.author}</h4>
       </footer>
     </section>
